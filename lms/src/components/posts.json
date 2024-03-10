@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "image": "./Images/random.jpg",
+      "author": "Rahul",
+      "date": "01-03-24" ,
+      "name": "Title 1",
+      "type": "Notice",
+      "content": "Description for Category 1"
+    },
+    {
+      "id": 2,
+      "image": "./Images/random (1).jpg",
+      "author": "Aman",
+      "date": "02-03-24" ,
+      "name": "Title 2",
+      "type": "Event",
+      "content": "Description for Category 2"
+    },
+    {
+      "id": 3,
+      "image": "./Images/random (3).jpg",
+      "author": "Ananya",
+      "date": "03-03-24" ,
+      "name": "Title 3",
+      "type": "Notice",
+      "content": "Description for Category 3"
+    },
+    {
+      "id": 4,
+      "image": "./Images/random (4).jpg",
+      "author": "Ankit",
+      "date": "04-03-24" ,
+      "name": "Title 4",
+      "type": "Event",
+      "content": "Description for Category 4"
+    },
+    {
+      "id": 5,
+      "image": "./Images/random (5).jpg",
+      "author": "Tushar",
+      "date": "05-03-24" ,
+      "name": "Title 5",
+      "type": "Notice",
+      "content": "Description for Category 5"
+    },
+    {
+      "id": 6,
+      "image": "./Images/random (6).jpg",
+      "author": "Yash",
+      "date": "06-03-24" ,
+      "name": "Title 6",
+      "type": "Event",
+      "content": "Description for Category 6"
+    },
+    {
+      "id": 7,
+      "image": "./Images/random (7).jpg",
+      "author": "Harsh",
+      "date": "07-03-24" ,
+      "name": "Title 7",
+      "type": "Notice",
+      "content": "Description for Category 7"
+    },
+    {
+      "id": 8,
+      "image": "./Images/random (8).jpg",
+      "author": "Deep",
+      "date": "08-03-24" ,
+      "name": "Title 8",
+      "type": "Event",
+      "content": "Description for Category 8"
+    },
+    {
+      "id": 9,
+      "image": "./Images/random (9).jpg",
+      "author": "Pawan",
+      "date": "09-03-24" ,
+      "name": "Title 9",
+      "type": "Notice",
+      "content": "Description for Category 9"
+    },
+    {
+      "id": 10,
+      "image": "./Images/random (10).jpg",
+      "author": "Rachit",
+      "date": "10-03-24" ,
+      "name": "Title 10",
+      "type": "Event",
+      "content": "Description for Category 10"
+    },
+    {
+      "id": 11,
+      "image": "./Images/random (11).jpg",
+      "author": "Chetan",
+      "date": "11-03-24" ,
+      "name": "Title 11",
+      "type": "Notice",
+      "content": "Description for Category 11"
+    },
+    {
+      "id": 12,
+      "image": "./Images/random (12).jpg",
+      "author": "Sakshi",
+      "date": "12-03-24" ,
+      "name": "Title 12",
+      "type": "Event",
+      "content": "Description for Category 12"
+    },
+    {
+      "id": 13,
+      "image": "./Images/random (13).jpg",
+      "author": "Shivani",
+      "date": "13-03-24" ,
+      "name": "Title 13",
+      "type": "Notice",
+      "content": "Description for Category 13"
+    },
+    {
+      "id": 14,
+      "image": "./Images/random (14).jpg",
+      "author": "Tanmay",
+      "date": "14-03-24" ,
+      "name": "Title 14",
+      "type": "Event",
+      "content": "Description for Category 14"
+    },
+    {
+      "id": 15,
+      "image": "./Images/random (15).jpg",
+      "author": "Ketan",
+      "date": "15-03-24" ,
+      "name": "Title 15",
+      "type": "Notice",
+      "content": "Description for Category 15"
+    },
+    {
+      "id": 16,
+      "image": "./Images/random (16).jpg",
+      "author": "Puneet",
+      "date": "16-03-24" ,
+      "name": "Title 16",
+      "type": "Event",
+      "content": "Description for Category 16"
+    }
+  ]
+  

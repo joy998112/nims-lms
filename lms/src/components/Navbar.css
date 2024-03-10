@@ -1,0 +1,49 @@
+#Profiletext, #drive, #support, #settings, #logout{
+  display: none;
+}
+
+#NavbarMain{
+  position: fixed;
+  width: 100%;
+}
+
+#Profile{
+  height: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#logo{
+  height: 50px;
+  border-radius: 5px;
+}
+
+#DropdownMenu li{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 360px) {
+  #navbarNav {
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    top: 75px;
+    background-color: #343a40;
+    width: 300px;
+    padding: 0 20px;
+  }
+
+  #Profilebutton{
+      display: none;
+  }
+  #DropdownMenu p{
+      margin: 0;
+  }
+  #Profiletext, #drive, #support, #settings, #logout{
+    display: block;
+  }
+  #NavbarMain{
+    font-size: larger;
+  }
+}

@@ -1,0 +1,21 @@
+#loweranchors{
+    background-color: rgb(158, 158, 158);
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#loweranchors a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#loweranchors a:hover{
+    background-color: aliceblue;
+}
+

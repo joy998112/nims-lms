@@ -1,0 +1,10 @@
+#copyright{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    width: 100vw;
+}
