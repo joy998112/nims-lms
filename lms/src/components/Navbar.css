@@ -3,6 +3,7 @@
 }
 
 #NavbarMain{
+  padding: 10px 20px;
   position: fixed;
   width: 100%;
 }
@@ -46,4 +47,26 @@
   #NavbarMain{
     font-size: larger;
   }
+}
+
+#s-details-container{
+  position: relative;
+  cursor: pointer;
+}
+
+#s-details{
+  list-style-type: none;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  display: none;
+  right: 160px;
+  top: 20px;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  padding: 15px;
+}
+
+#s-details-container:hover #s-details{
+  display: block;
 }

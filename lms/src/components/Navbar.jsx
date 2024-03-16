@@ -122,44 +122,53 @@ export default function Navbar() {
               Logout
             </a>
           </li>
-          <li id="Profilebutton" className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="/"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <img id="Profile" src="profile.png" alt="img1" />
-            </a>
-            <ul
-              id="DropdownMenu"
-              className="dropdown-menu dropdown-menu-right"
-              aria-labelledby="navbarDropdown"
-            >
-              <li className="dropdown-item">
-                Profile
-                <ul>
-                  <li>Student Name</li>
-                  <li>Enrollment ID</li>
-                  <li>Course</li>
-                </ul>
-              </li>
-              <li className="dropdown-item" href="/">
-                Settings
-              </li>
-              <li className="dropdown-item" href="/">
-                Support
-              </li>
-              <li className="dropdown-item" href="/">
-                Drive
-              </li>
-              <li className="dropdown-item" href="/">
-                Logout
-              </li>
-            </ul>
+          <li className="nav-item dropdown">
+            <div>
+              <div
+                style={{ color: "white" }}
+                className="dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  style={{
+                    backgroundColor: "white",
+                    borderRadius: "50%",
+                    padding: "3px",
+                  }}
+                  height="50px"
+                  src="profile.png"
+                  alt="profile"
+                />
+              </div>
+              <ul style={{cursor : "pointer"}} className="dropdown-menu dropdown-menu-right">
+                <div
+                  style={{ width: "100%", padding: "1px 10px" }}
+                  className="btn-group dropstart"
+                  id="s-details-container"
+                >
+                  <p
+                    style={{ margin: "0", cursor: "pointer", width: "100%" }}
+                    className="dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    aria-expanded="false"
+                  >
+                    Profile
+                  </p>
+                  <ul id="s-details">
+                    <li>Student Name</li>
+                    <li>Enrollment ID</li>
+                    <li>Course</li>
+                  </ul>
+                </div>
+                <li className="dropdown-item">Settings</li>
+                <li className="dropdown-item">Support</li>
+                <li className="dropdown-item">Drive</li>
+                <li className="dropdown-item">Logout</li>
+              </ul>
+            </div>
           </li>
         </ul>
       </nav>
