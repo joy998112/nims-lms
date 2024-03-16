@@ -142,21 +142,15 @@ export default function Navbar() {
                   alt="profile"
                 />
               </div>
-              <ul style={{cursor : "pointer"}} className="dropdown-menu dropdown-menu-right">
+              <ul
+                style={{ cursor: "pointer" }}
+                className="dropdown-menu dropdown-menu-right"
+              >
                 <div
-                  style={{ width: "100%", padding: "1px 10px" }}
-                  className="btn-group dropstart"
+                  className="dropstart"
                   id="s-details-container"
                 >
-                  <p
-                    style={{ margin: "0", cursor: "pointer", width: "100%" }}
-                    className="dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside"
-                    aria-expanded="false"
-                  >
-                    Profile
-                  </p>
+                  <li className="dropdown-toggle">Profile</li>
                   <ul id="s-details">
                     <li>Student Name</li>
                     <li>Enrollment ID</li>

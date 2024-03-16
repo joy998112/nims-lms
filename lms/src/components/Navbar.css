@@ -70,3 +70,11 @@
 #s-details-container:hover #s-details{
   display: block;
 }
+
+#s-details-container{
+  padding: 4px 9px;
+}
+
+#s-details-container:hover{
+  background-color: #f3f3f394;
+}
