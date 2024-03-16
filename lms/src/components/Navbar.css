@@ -47,6 +47,9 @@
   #NavbarMain{
     font-size: larger;
   }
+  #profile-dropdown{
+    display: none;
+  }
 }
 
 #s-details-container{

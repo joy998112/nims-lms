@@ -122,7 +122,7 @@ export default function Navbar() {
               Logout
             </a>
           </li>
-          <li className="nav-item dropdown">
+          <li id="profile-dropdown" className="nav-item dropdown">
             <div>
               <div
                 style={{ color: "white" }}
