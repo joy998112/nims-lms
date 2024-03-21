@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -8,9 +9,9 @@ export default function Navbar() {
         id="NavbarMain"
         className="navbar navbar-expand-lg navbar-dark bg-dark"
       >
-        <a className="navbar-brand w-50" href="/">
+        <div className="navbar-brand w-50">
           <img src="nims.jpg" alt="logo" id="logo" />
-        </a>
+        </div>
 
         <button
           className="navbar-toggler"
@@ -56,25 +57,25 @@ export default function Navbar() {
               </p>
             </div>
           </li>
-          <li className="nav-item active ">
-            <a className="nav-link" href="/">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/academics">
               Academics
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/attendence">
               Attendence
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/exam">
               Exam
-            </a>
+            </Link>
           </li>
           <li id="drive" className="nav-item ">
             <a className="nav-link" href="/">
@@ -146,10 +147,7 @@ export default function Navbar() {
                 style={{ cursor: "pointer" }}
                 className="dropdown-menu dropdown-menu-right"
               >
-                <div
-                  className="dropstart"
-                  id="s-details-container"
-                >
+                <div className="dropstart" id="s-details-container">
                   <li className="dropdown-toggle">Profile</li>
                   <ul id="s-details">
                     <li>Student Name</li>

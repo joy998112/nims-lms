@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 2,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 3,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 4,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 5,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 6,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 7,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 8,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 9,
+        "name": "Student Name",
+        "image": "profile.png"
+    },
+    {
+        "id": 10,
+        "name": "Student Name",
+        "image": "profile.png"
+    }
+]
