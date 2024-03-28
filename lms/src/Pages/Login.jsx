@@ -1,4 +1,3 @@
-import React from "react";
 import "../components/Login.css";
 
 export default function Login() {
@@ -28,8 +27,11 @@ export default function Login() {
                 placeholder="Enter Password"
               />
             </div>
-            <div id="button-n-forget" >
-              <button type="submit" className="btn btn-primary">
+            <div id="button-n-forget">
+              <button
+                type="submit"
+                className="btn btn-primary"
+              >
                 Login
               </button>
               <a href="/">Forget Password ?</a>
